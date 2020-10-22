@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "target": "ES6",
+    "baseUrl": ".",
+    "paths": {
+      "@types/*": [
+        "@types/*"
+      ]
+    },
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "./commands/**/*.ts",
+    "./bot/**/*.ts",
+    "./@types.ts"
+  ]
+}
